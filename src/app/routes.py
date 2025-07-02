@@ -1,6 +1,6 @@
 from starlette.routing import Route
 
-import views
+from . import views
 
 
 routes = [

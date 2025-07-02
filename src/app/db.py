@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-import settings
+from . import settings
 
 
 if settings.DB_URL.startswith("sqlite:/"):

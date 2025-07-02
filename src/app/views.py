@@ -1,4 +1,4 @@
-from templating import templating
+from .templating import templating
 
 
 def home(request):
