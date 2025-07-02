@@ -13,3 +13,4 @@ TEMPLATE_DIRS = [
 
 load_dotenv()
 SECRET_KEY = os.getenv("SECRET_KEY")
+DB_URL = os.getenv("DB_URL")
